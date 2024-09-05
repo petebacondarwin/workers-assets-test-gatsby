@@ -46,7 +46,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "pnpm run build && wrangler pages deploy ./public",
-    "preview": "pnpm run build && wrangler pages dev ./public"
+    "deploy": "pnpm run build && wrangler deploy",
+    "preview": "pnpm run build && wrangler dev"
   }
 }
